@@ -1,12 +1,24 @@
 .tabs {
-  outline: 1px solid #eee; }
+  outline: 1px solid #ccc; }
+
+html {
+  font-family: Lato, sans-serif;
+  font-size: 1.25em; }
 
 .tabs {
+  margin: 3em 0;
   width: 100%;
   box-sizing: border-box; }
-  .tabs_nav_list {
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-  .tabs_nav_item {
-    display: inline-block; }
+  .tabs_nav {
+    text-align: center; }
+    .tabs_nav_list {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+    .tabs_nav_item {
+      display: inline-block; }
+      .tabs_nav_item a {
+        text-decoration: none;
+        font-size: 1.45em;
+        padding: 1em;
+        color: #BECBD2; }

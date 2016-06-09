@@ -1,3 +1,16 @@
 %outline {
-  outline:1px solid #eee;
+  outline:1px solid #ccc;
+}
+
+//text
+$small_text: 1em;
+$default_text: 1.25em;
+$large_text: 1.45em;
+
+//color
+$dark_color: #BECBD2;
+
+html {
+  font-family: Lato, sans-serif;
+  font-size:$default_text;
 }

@@ -2,10 +2,12 @@
 
 .tabs {
   @extend %outline;
+  margin: 3em 0;
   width:100%;
   box-sizing: border-box;
 
   &_nav {
+    text-align: center;
 
     &_list {
       list-style: none;
@@ -15,6 +17,13 @@
 
     &_item {
       display: inline-block;
+
+      a {
+        text-decoration: none;
+        font-size: $large_text;
+        padding: 1em;
+        color: $dark_color;
+      }
     }
   }
 }
